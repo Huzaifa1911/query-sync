@@ -1,6 +1,12 @@
 {
   "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Chrome React Extension",
+  "description": "Chrome extension to extract text from youtube video, analyse  the video based on user query and jump to part of video where context matched most.",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
   "icons": [
     {
       "src": "favicon.ico",
